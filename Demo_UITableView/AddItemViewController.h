@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddItemViewController.h
 //  Demo_UITableView
 //
 //  Created by Georgios on 2018-02-01.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface AddItemViewController : UIViewController
+@property (nonatomic) NSMutableArray *items;
 @end
-

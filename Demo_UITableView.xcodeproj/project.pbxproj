@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3529B917202326DD00F79BFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B916202326DD00F79BFA /* AppDelegate.m */; };
-		3529B91A202326DD00F79BFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B919202326DD00F79BFA /* ViewController.m */; };
 		3529B91D202326DD00F79BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3529B91B202326DD00F79BFA /* Main.storyboard */; };
 		3529B91F202326DD00F79BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3529B91E202326DD00F79BFA /* Assets.xcassets */; };
 		3529B922202326DD00F79BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3529B920202326DD00F79BFA /* LaunchScreen.storyboard */; };
 		3529B925202326DD00F79BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B924202326DD00F79BFA /* main.m */; };
 		3529B92F202326DD00F79BFA /* Demo_UITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B92E202326DD00F79BFA /* Demo_UITableViewTests.m */; };
 		3529B93A202326DD00F79BFA /* Demo_UITableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B939202326DD00F79BFA /* Demo_UITableViewUITests.m */; };
+		3529B94C2023390400F79BFA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B94B2023390400F79BFA /* InfoViewController.m */; };
+		3529B94F2023655700F79BFA /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B94E2023655700F79BFA /* AddItemViewController.m */; };
+		3529B9512024B39A00F79BFA /* ToDoErViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529B9502024B39A00F79BFA /* ToDoErViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		3529B912202326DD00F79BFA /* Demo_UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3529B915202326DD00F79BFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3529B916202326DD00F79BFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3529B918202326DD00F79BFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3529B919202326DD00F79BFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3529B91C202326DD00F79BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3529B91E202326DD00F79BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3529B921202326DD00F79BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		3529B935202326DD00F79BFA /* Demo_UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_UITableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3529B939202326DD00F79BFA /* Demo_UITableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_UITableViewUITests.m; sourceTree = "<group>"; };
 		3529B93B202326DD00F79BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3529B94720232CF600F79BFA /* ToDoErViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoErViewController.h; sourceTree = "<group>"; };
+		3529B94A2023390400F79BFA /* InfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		3529B94B2023390400F79BFA /* InfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		3529B94D2023655700F79BFA /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		3529B94E2023655700F79BFA /* AddItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		3529B9502024B39A00F79BFA /* ToDoErViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoErViewController.m; path = ../../../../Desktop/ToDoErViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +107,19 @@
 		3529B914202326DD00F79BFA /* Demo_UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				3529B94720232CF600F79BFA /* ToDoErViewController.h */,
+				3529B9502024B39A00F79BFA /* ToDoErViewController.m */,
 				3529B915202326DD00F79BFA /* AppDelegate.h */,
 				3529B916202326DD00F79BFA /* AppDelegate.m */,
-				3529B918202326DD00F79BFA /* ViewController.h */,
-				3529B919202326DD00F79BFA /* ViewController.m */,
 				3529B91B202326DD00F79BFA /* Main.storyboard */,
 				3529B91E202326DD00F79BFA /* Assets.xcassets */,
 				3529B920202326DD00F79BFA /* LaunchScreen.storyboard */,
 				3529B923202326DD00F79BFA /* Info.plist */,
 				3529B924202326DD00F79BFA /* main.m */,
+				3529B94A2023390400F79BFA /* InfoViewController.h */,
+				3529B94B2023390400F79BFA /* InfoViewController.m */,
+				3529B94D2023655700F79BFA /* AddItemViewController.h */,
+				3529B94E2023655700F79BFA /* AddItemViewController.m */,
 			);
 			path = Demo_UITableView;
 			sourceTree = "<group>";
@@ -265,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3529B91A202326DD00F79BFA /* ViewController.m in Sources */,
 				3529B925202326DD00F79BFA /* main.m in Sources */,
 				3529B917202326DD00F79BFA /* AppDelegate.m in Sources */,
+				3529B9512024B39A00F79BFA /* ToDoErViewController.m in Sources */,
+				3529B94C2023390400F79BFA /* InfoViewController.m in Sources */,
+				3529B94F2023655700F79BFA /* AddItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6E23342LP;
 				INFOPLIST_FILE = Demo_UITableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GA.Demo-UITableView";
@@ -444,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6E23342LP;
 				INFOPLIST_FILE = Demo_UITableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GA.Demo-UITableView";
